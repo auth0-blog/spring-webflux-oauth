@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        id: http://localhost:8080/api
+        jwk:
+          jwk-set-uri: https://blog-samples.auth0.com/.well-known/jwks.json
+          issuer-uri: https://blog-samples.auth0.com/
